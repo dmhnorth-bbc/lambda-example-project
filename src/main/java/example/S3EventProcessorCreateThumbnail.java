@@ -22,7 +22,9 @@ import java.net.URLDecoder;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-
+/**
+ * Example from AWS. To be deleted
+ */
 public class S3EventProcessorCreateThumbnail implements
         RequestHandler<S3Event, String> {
     private static final float MAX_WIDTH = 100;

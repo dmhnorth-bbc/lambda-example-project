@@ -3,6 +3,10 @@ package example;
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.LambdaLogger;
 
+
+/**
+ * A set of lambdas for testing, delete later.
+ */
 public class LambdaBasicExamples {
     /*
     Overloading I haven't got overloading to work, an int is called as a string in the current setup if all methods were

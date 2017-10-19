@@ -15,6 +15,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URLDecoder;
 
+
+/**
+ * Handler that checks the MimeType of a file within an S3 bucket
+ */
 public class S3HandlerMimeTypeCheck implements RequestHandler<S3Event, Object> {
 
     private Tika defaultTika = new Tika();

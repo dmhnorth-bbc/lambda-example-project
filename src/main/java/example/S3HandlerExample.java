@@ -8,6 +8,9 @@ import com.amazonaws.services.s3.event.S3EventNotification;
 
 import java.util.Arrays;
 
+/**
+ * Very basic S3 handler that returns the key of a file within an S3Event
+ */
 public class S3HandlerExample implements RequestHandler<S3Event, Object> {
 
     @Override
